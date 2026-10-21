@@ -80,6 +80,13 @@ resources/icons/        # app icon
 Actively developed. Tested on CachyOS (KDE Plasma, PipeWire) with a MOMENTUM True
 Wireless 5. Other MOMENTUM models may partially work, but are untested.
 
+## Contributing
+
+Please read [AGENTS.md](AGENTS.md) (also applies to humans). In short: never commit
+private data such as device MAC addresses, home paths, IPs or tokens. After cloning, run
+`scripts/install-hooks.sh` once – the hooks check every commit and push with
+`scripts/check-private.sh`.
+
 ## License
 
 [MIT](LICENSE)
